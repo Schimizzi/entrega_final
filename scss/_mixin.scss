@@ -1,0 +1,13 @@
+/* no me parecio muy util, por lo menos por ahora */
+
+@mixin encabezados {
+    background-color: $color_titulo;
+    color: $color_productos_titulo;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: $font_productos_titulo;
+
+}

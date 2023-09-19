@@ -1,0 +1,70 @@
+@import "variables";
+@import "fonts";
+@import "galeria";
+@import "productos";
+@import "mixin";
+
+/* * {
+    border: 2px solid red;
+}*/
+
+/* NAVBAR */
+
+body {
+    font-family: $font_titulo;
+    font-size: 20px;
+    background-color: $color_titulo;
+
+    header {
+        background-color: $color_head;
+        font-weight: bold;
+        font-size: 1.3rem;
+
+        div {
+            a {
+                font-weight: bold;
+                font-family: $font_logo;
+                margin: auto;
+                font-size: x-large;
+                text-decoration: none;
+                color: black;
+
+                img {
+                    width: 50px;
+                    padding-left: 5px;
+                }
+            }
+
+            nav {
+                ul {
+                    li {
+                        a:hover {
+                            text-shadow: 2px 2px 0 #c6c2c266, 2px 2px 0 #c6c2c266, 2px 2px 0 #c6c2c266, 2px 2px 0 #c6c2c266;
+                            transition: 88ms;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/* ENCABEZADOS */
+
+body {
+    h2 {
+        @include encabezados;
+    }
+}
+
+
+/* FOOTER */
+
+.logo_redes {
+    width: 35px;
+
+}
+
+

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Phudu&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+/* GALERIA */
+body main div {
+  display: grid;
+  grid-template-areas: "cuadro1 cuadro2 cuadro4" "cuadro5 cuadro2 cuadro3" "cuadro7 cuadro6 cuadro3";
+}
+body main div div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main div div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.cuadro_1 {
+  grid-area: cuadro1;
+}
+
+.cuadro_2 {
+  grid-area: cuadro2;
+}
+
+.cuadro_3 {
+  grid-area: cuadro3;
+}
+
+.cuadro_4 {
+  grid-area: cuadro4;
+}
+
+.cuadro_5 {
+  grid-area: cuadro5;
+}
+
+.cuadro_6 {
+  grid-area: cuadro6;
+}
+
+.cuadro_7 {
+  grid-area: cuadro7;
+}
+
+.productos_margen {
+  margin: 20px;
+}
+
+/* no me parecio muy util, por lo menos por ahora */
+/* * {
+    border: 2px solid red;
+}*/
+/* NAVBAR */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background-color: rgba(245, 231, 215, 0.868);
+}
+body header {
+  background-color: rgba(244, 228, 209, 0.868);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+body header div a {
+  font-weight: bold;
+  font-family: "Phudu", cursive;
+  margin: auto;
+  font-size: x-large;
+  text-decoration: none;
+  color: black;
+}
+body header div a img {
+  width: 50px;
+  padding-left: 5px;
+}
+body header div nav ul li a:hover {
+  text-shadow: 2px 2px 0 rgba(198, 194, 194, 0.4), 2px 2px 0 rgba(198, 194, 194, 0.4), 2px 2px 0 rgba(198, 194, 194, 0.4), 2px 2px 0 rgba(198, 194, 194, 0.4);
+  transition: 88ms;
+}
+
+/* ENCABEZADOS */
+body h2 {
+  background-color: rgba(245, 231, 215, 0.868);
+  color: chocolate;
+  text-align: center;
+  font-weight: bold;
+  padding: 16px;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* FOOTER */
+.logo_redes {
+  width: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */

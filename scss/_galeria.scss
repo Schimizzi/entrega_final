@@ -1,0 +1,44 @@
+
+/* GALERIA */
+
+body {
+    main {
+        div {
+            display: grid;
+            grid-template-areas:
+                "cuadro1 cuadro2 cuadro4"
+                "cuadro5 cuadro2 cuadro3"
+                "cuadro7 cuadro6 cuadro3";
+
+            div {
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 20px;
+                    padding: 5px;
+
+                }
+            }
+
+
+        }
+
+
+
+    }
+
+
+}
+
+@for $i from 1 through 7 {
+    .cuadro_#{$i} {
+        grid-area: cuadro#{$i};
+    }
+}
+
