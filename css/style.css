@@ -3,7 +3,7 @@
 /* GALERIA */
 body main div {
   display: grid;
-  grid-template-areas: "cuadro1 cuadro2 cuadro4" "cuadro5 cuadro2 cuadro3" "cuadro7 cuadro6 cuadro3";
+  grid-template-areas: "cuadro1 cuadro7 cuadro7 cuadro2" "cuadro5 cuadro7 cuadro7 cuadro2" "cuadro5 cuadro6 cuadro3 cuadro4";
 }
 body main div div {
   display: flex;
@@ -46,8 +46,21 @@ body main div div img {
   grid-area: cuadro7;
 }
 
+@media (max-width: 900px) {
+  body main div {
+    display: grid;
+    grid-template-areas: "cuadro1 cuadro7 cuadro2" "cuadro5 cuadro7 cuadro4" "cuadro5 cuadro6 cuadro3 ";
+  }
+}
 .productos_margen {
   margin: 20px;
+}
+
+.cajas:hover {
+  animation: pulse;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
 }
 
 /* no me parecio muy util, por lo menos por ahora */
@@ -80,6 +93,8 @@ body header div a img {
 body header div nav ul li a:hover {
   text-shadow: 2px 2px 0 rgba(198, 194, 194, 0.4), 2px 2px 0 rgba(198, 194, 194, 0.4), 2px 2px 0 rgba(198, 194, 194, 0.4), 2px 2px 0 rgba(198, 194, 194, 0.4);
   transition: 88ms;
+  animation: headShake; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
 }
 
 /* ENCABEZADOS */
@@ -98,5 +113,7 @@ body h2 {
 .logo_redes {
   width: 35px;
 }
+
+/*pruebassssssssssssssssssssss*/
 
 /*# sourceMappingURL=style.css.map */

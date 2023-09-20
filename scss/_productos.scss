@@ -1,4 +1,12 @@
-
 .productos_margen {
-    margin: 20px;
-  }
+  margin: 20px;
+}
+
+.cajas:hover {
+  animation: pulse;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
+
+}
+
