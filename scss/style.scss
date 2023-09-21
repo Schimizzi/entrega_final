@@ -17,6 +17,11 @@ body {
     font-size: 20px;
     background-color: $color_titulo;
 
+    h2 {
+        @include encabezados;
+    }
+
+
     header {
         background-color: $color_head;
         font-weight: bold;
@@ -54,17 +59,19 @@ body {
             }
         }
     }
+
     main {
         min-height: 80vh;
+
         div {
-            div{
-                img{
+            div {
+                img {
                     width: 100%;
                     /*max-height: 600px;*/
                     height: 75vh;
                     object-fit: cover;
                     border-radius: 20px;
-                
+
                 }
             }
         }
@@ -72,21 +79,8 @@ body {
 
 }
 
-/* ENCABEZADOS */
-
-body {
-    h2 {
-        @include encabezados;
-    }
-}
-
-
 /* FOOTER */
 
 .logo_redes {
     width: 35px;
-
 }
-
-
-
