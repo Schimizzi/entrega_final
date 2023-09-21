@@ -2,7 +2,7 @@
 
 body {
     main {
-        div {
+        span {
             display: grid;
             grid-template-areas:
                 "cuadro1 cuadro7 cuadro7 cuadro2"
@@ -44,7 +44,7 @@ body {
 @media (max-width: 900px) {
     body {
         main {
-            div {
+            span {
                 display: grid;
                 grid-template-areas:
                     "cuadro1 cuadro7 cuadro2"

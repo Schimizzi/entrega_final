@@ -3,6 +3,8 @@
 @import "galeria";
 @import "productos";
 @import "mixin";
+@import "contacto";
+@import "sobremi";
 
 /* * {
     border: 2px solid red;
@@ -41,11 +43,28 @@ body {
                         a:hover {
                             text-shadow: 2px 2px 0 #c6c2c266, 2px 2px 0 #c6c2c266, 2px 2px 0 #c6c2c266, 2px 2px 0 #c6c2c266;
                             transition: 88ms;
-                            animation: headShake; /* referring directly to the animation's @keyframe declaration */
-                            animation-duration: 1s; /* don't forget to set a duration! */
-                        
+                            animation: headShake;
+                            /* referring directly to the animation's @keyframe declaration */
+                            animation-duration: 1s;
+                            /* don't forget to set a duration! */
+
                         }
                     }
+                }
+            }
+        }
+    }
+    main {
+        min-height: 80vh;
+        div {
+            div{
+                img{
+                    width: 100%;
+                    /*max-height: 600px;*/
+                    height: 75vh;
+                    object-fit: cover;
+                    border-radius: 20px;
+                
                 }
             }
         }
@@ -69,6 +88,5 @@ body {
 
 }
 
-/*pruebassssssssssssssssssssss*/
 
 

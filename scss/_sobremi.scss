@@ -1,0 +1,24 @@
+body {
+    main {
+        h1 {
+            text-align: center;
+            text-shadow: 3px 3px 0 #fafafa, 3px 3px 0 #fafafa, 3px 3px 0 #fafafa, 3px 3px 0 #fafafa;
+        
+        }
+
+        p {
+            color: #01021b;
+            padding: 5px 10%;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1.5rem;
+
+        }
+    }
+}
+.fondo_body {
+    background-image: url("../img/fondo_sobremi2.jpg");
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
