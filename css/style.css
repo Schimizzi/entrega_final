@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Phudu&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+/*le podes definir el tamaño a las imágenes y desp agregarles object-fit: cover para que queden mejor*/
+
+
 /* GALERIA */
 body main span {
   display: grid;
@@ -110,6 +111,7 @@ body main div div iframe {
   height: 400px;
 }
 body main div div p {
+  font-size: 0.95rem;
   text-align: center;
   padding: 5px 25px 0px 25px;
 }
